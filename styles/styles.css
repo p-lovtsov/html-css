@@ -1,0 +1,93 @@
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Underdog-Regular;
+    src: url(../fonts/Underdog-Regular.ttf)
+}
+body {
+    background-color: #f8f8f8;
+}
+
+p {
+    font-family: OpenSans-Regular, sans-serif;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.menu {
+    color: darkgreen;
+    font-family: 'Underdog-Regular', serif;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu a:visited {
+    color: darkgreen;
+}
+
+#name-of-shop {
+    color: darkgreen;
+    font-family: 'Underdog-Regular', serif;
+    font-size: 36px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.description h1, .description h2 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.description img {
+    border: 2px solid #00444a;
+}
+
+.short-description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.in-detail {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.in-detail li {
+    list-style-image: url(../images/tree_icon_small.jpg);
+}
+
+input[placeholder] {
+    display: block;
+    width: 200px;
+    height: 20px;
+    color: darkgreen;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 25px;
+}
+
+.adress {
+    list-style-type: square;
+}
