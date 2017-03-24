@@ -38,6 +38,10 @@ footer p {
     color: darkgreen;
 }
 
+.menu a:hover {
+    color: lightgreen;
+}
+
 #name-of-shop {
     color: darkgreen;
     font-family: 'Underdog-Regular', serif;
