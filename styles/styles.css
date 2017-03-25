@@ -15,6 +15,12 @@ p {
     font-family: OpenSans-Regular, sans-serif;
 }
 
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+
 footer p {
     font-size: 14px;
 }
@@ -31,6 +37,7 @@ footer p {
 }
 
 .menu a {
+    color: darkgreen;
     text-decoration: none;
 }
 
@@ -94,4 +101,39 @@ input[type="submit"] {
 
 .adress {
     list-style-type: square;
+}
+
+input[type="email"]:focus {
+    color: lightgreen;
+    background-color: #484343;
+}
+
+input[type="text"]:focus {
+    text-transform: capitalize;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.description p:first-letter {
+    color: red;
+    font-family: 'Underdog-Regular', serif;
+    font-size: large;
+    font-weight: 700;
+}
+
+tr:first-child td {
+    height: 40px;
+    font-weight: 700;
+    color: darkgreen;
+}
+
+.description img:hover {
+    border: hidden;
+    margin: 2px;
 }

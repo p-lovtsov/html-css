@@ -6,12 +6,15 @@
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
-    <div class="menu">
-        <ul >
-            <li><a href="../index.html">Главная</a></li>
-            <li><a href="../catalog.html">Каталог</a></li>
-            <li><a href="../contacts.html">Контакты</a></li>
-        </ul>
+    <div class="header">
+        <img id="logo" src="../images/leaf-logo.png" alt="логотип">
+        <div class="menu">
+            <ul>
+                <li><a href="../index.html">Главная</a></li>
+                <li><a href="../catalog.html">Каталог</a></li>
+                <li><a href="../contacts.html">Контакты</a></li>
+            </ul>
+        </div>
     </div>
     <div class="description">
         <h1>Тис ягодный</h1>
@@ -19,6 +22,39 @@
         <h2>Описание товара:</h2>
         <p class="short-description">Тис обыкновенный. <i>Taxus baccata</i></p>
         <h2>Характеристики товара:</h2>
+        <table>
+            <tr>
+                <td>Питомник</td>
+                <td>Высота растения</td>
+                <td>Дата поступления</td>
+                <td>Состояние</td>
+                <td>Цена</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Рязань</td>
+                <td rowspan="2">15см</td>
+                <td rowspan="2">04.03.2017</td>
+                <td>Отличное</td>
+                <td>200 рублей</td>
+            </tr>
+            <tr>
+                <td>Хорошее</td>
+                <td>150 рублей</td>
+            </tr>
+            <tr>
+                <td>20см</td>
+                <td>12.03.2017</td>
+                <td>Отличное</td>
+                <td>250 рублей</td>
+            </tr>
+            <tr>
+                <td>Москва</td>
+                <td>10 см</td>
+                <td>10.03.2017</td>
+                <td>Очень хорошее</td>
+                <td>170 рублей</td>
+            </tr>
+        </table>
             <ul class="in-detail">
                 <li><b>Происхождение:</b> Произрастает в Западной, Центральной и Южной Европе</li>
                 <li><b>Диаметр горшка:</b> 15 см.</li>
@@ -30,8 +66,10 @@
             </ul>
     </div>
     <hr>
-    <footer>
-        <p>&copy; Все права защищены</p>
-    </footer>
+    <div class="footer">
+        <footer>
+            <p>&copy; Все права защищены. 2017</p>
+        </footer>
+    </div>
 </body>
 </html>
