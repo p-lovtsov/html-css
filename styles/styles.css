@@ -137,3 +137,8 @@ tr:first-child td {
     border: hidden;
     margin: 2px;
 }
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
