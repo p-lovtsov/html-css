@@ -27,7 +27,7 @@ footer p {
 }
 
 .menu {
-    position: relative;
+    float: right;
     margin-right: 0;
     margin-left: auto;
     display: inline-block;
@@ -75,6 +75,12 @@ footer p {
 }
 
 .short-description {
+    display: block;
+    float: left;
+    margin-left: 30px;
+}
+
+.short-description p {
     color: #707070;
     font-size: 14px;
     font-style: italic;
@@ -126,8 +132,8 @@ td {
     border: 1px solid black;
 }
 
-.description p:first-letter {
-    color: red;
+.short-description p:first-letter {
+    color: darkgreen;
     font-family: 'Underdog-Regular', serif;
     font-size: large;
     font-weight: 700;
@@ -140,8 +146,7 @@ tr:first-child td {
 }
 
 .description img:hover {
-    border: hidden;
-    margin: 2px;
+    border-color: transparent;
 }
 
 .container {
@@ -151,4 +156,55 @@ tr:first-child td {
 
 .header {
     height: 100px;
+}
+
+.footer {
+    height: 50px;
+    background-color: #b3b392;
+}
+
+.footer p {
+    float: right;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+.image {
+    float: left;
+
+}
+
+.clearfix {
+    clear: both;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    float: right;
+    font-family: 'Underdog-Regular', serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+button:hover {
+    color: darkgreen;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+button:active {
+    color: darkgreen;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.catalogue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.catalogue div:nth-child(4n) {
+
 }
