@@ -205,6 +205,37 @@ button:active {
     justify-content: space-around;
 }
 
-.catalogue div:nth-child(4n) {
+.catalogue div {
+    width: 200px;
+    height: 350px;
+    border: 2px solid darkgreen;
+}
 
+.catalogue div:hover {
+    border: 2px solid lightgreen;
+}
+
+.catalogue img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.catalogue p {
+    margin-top: 0;
+    width: 200px;
+    text-align: center;
+}
+
+.catalogue a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.75);
+}
+
+.catalogue a:visited {
+    color: rgba(0,0,0,0.75);
+}
+
+.catalogue a:hover {
+    font-weight: 700;
 }
